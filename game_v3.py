@@ -19,7 +19,7 @@ def random_predict(number: int = 1) -> int:
     
     while True:
         count += 1
-        predict = (min_value+max_value)//2
+        predict = (min_value + max_value)//2
         if predict == number:
             break
         elif predict < number:
