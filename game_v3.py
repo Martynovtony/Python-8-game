@@ -26,6 +26,7 @@ def random_predict(number: int = 1) -> int:
             min_value = predict
         else:
             max_value = predict
+            
     return count
 
 
